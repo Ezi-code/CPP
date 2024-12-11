@@ -17,3 +17,9 @@ This repository contains various C++ programs for practicing basic concepts. Eac
 ## How to Run
 
 To compile and run any of these programs, use the following commands in your terminal:
+
+```sh
+g++ -o output day1/<program_name>.cpp
+./output
+
+```
