@@ -46,6 +46,10 @@ void print_menu(string name)
     {
         add_item();
     }
+    if (choice == 3)
+    {
+        print_list();
+    }
 }
 
 void add_item()
@@ -57,5 +61,15 @@ void add_item()
     string item;
     cin >> item;
     list.push_back(item);
+    print_menu(name);
+}
+
+void print_list()
+{
+    // for (int i = 0; i >= list.size(); i++)
+    // {
+    //     cout << list[i] << endl;
+    // }
+
     print_menu(name);
 }
